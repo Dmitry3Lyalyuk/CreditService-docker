@@ -1,0 +1,18 @@
+@CreditService.Web_HostAddress = http://localhost:5062/api
+
+### Get all credits
+GET {{CreditService.Web_HostAddress}}/credits/
+Accept: application/json
+
+###
+### Create a credit
+POST {{CreditService.Web_HostAddress}}/credits/
+Content-Type: application/json
+
+{
+  "number": "number",
+  "amount": "amount",
+  "termvalue": "termvalue",
+  "interestvalue": "interestvalue",
+   "status": "status"
+}
