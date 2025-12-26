@@ -1,0 +1,13 @@
+
+db-data/
+
+
+node_modules/
+bin/
+obj/
+out/
+.vs/
+
+
+.env
+npm-debug.log*
